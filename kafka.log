@@ -1,0 +1,227 @@
+[2017-10-25T10:32:15.764Z] [INFO] [??] [kafkatriggers] [canary] I found a canary. The last one was 60.084503 seconds ago.
+[2017-10-25T10:33:15.850Z] [INFO] [??] [kafkatriggers] [canary] I found a canary. The last one was 60.085633 seconds ago.
+[2017-10-25T10:34:15.941Z] [INFO] [??] [kafkatriggers] [canary] I found a canary. The last one was 60.090664 seconds ago.
+[2017-10-25T10:35:16.043Z] [INFO] [??] [kafkatriggers] [canary] I found a canary. The last one was 60.101626 seconds ago.
+[2017-10-25T10:36:16.194Z] [INFO] [??] [kafkatriggers] [canary] I found a canary. The last one was 60.151593 seconds ago.
+[2017-10-25T10:36:17.620Z] [INFO] [??] [kafkatriggers] 127.0.0.1 - - [2017-10-25 10:36:17] "GET /health HTTP/1.1" 200 1643 0.503543
+[2017-10-25T10:37:10.803Z] [INFO] [??] [kafkatriggers] [changes] Found a change in a trigger document
+[2017-10-25T10:37:10.804Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found a new trigger to create
+[2017-10-25T10:37:10.816Z] [INFO] [??] [kafkatriggers] Starting new HTTP connection (1): couchdb.openwhisk
+[2017-10-25T10:37:10.835Z] [INFO] [??] [kafkatriggers] Database exists - connecting to it.
+[2017-10-25T10:37:10.844Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Trigger was determined to be active, starting...
+[2017-10-25T10:37:10.926Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Now listening in order to fire trigger
+%3|1508927830.936|FAIL|rdkafka#consumer-1| [thrd:10.42.102.113:9092/bootstrap]: 10.42.102.113:9092/bootstrap: Connect to ipv4#10.42.102.113:9092 failed: Connection refused
+%3|1508927830.936|ERROR|rdkafka#consumer-1| [thrd:10.42.102.113:9092/bootstrap]: 10.42.102.113:9092/bootstrap: Connect to ipv4#10.42.102.113:9092 failed: Connection refused
+[2017-10-25T10:37:11.928Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Completed first poll
+[2017-10-25T10:37:16.311Z] [INFO] [??] [kafkatriggers] [canary] I found a canary. The last one was 60.116439 seconds ago.
+[2017-10-25T10:37:21.377Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 157 messages with a total size of 137659 bytes
+[2017-10-25T10:37:21.379Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 157 messages
+[2017-10-25T10:37:21.382Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:37:21.462Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:37:21.462Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation a528913a4bf34d7ea8913a4bf39d7eba
+[2017-10-25T10:37:22.135Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 68 messages with a total size of 59855 bytes
+[2017-10-25T10:37:22.136Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 68 messages
+[2017-10-25T10:37:22.138Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:37:22.264Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:37:22.264Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 05c72304e36b4db5872304e36bfdb522
+[2017-10-25T10:37:27.579Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 12 messages with a total size of 10516 bytes
+[2017-10-25T10:37:27.579Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 12 messages
+[2017-10-25T10:37:27.581Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:37:27.618Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:37:27.618Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 278bfa15ba05476d8bfa15ba05776d0b
+[2017-10-25T10:37:29.749Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 31 messages with a total size of 27338 bytes
+[2017-10-25T10:37:29.750Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 31 messages
+[2017-10-25T10:37:29.752Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:37:29.786Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:37:29.786Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 75744ab008fb484ab44ab008fba84a2c
+[2017-10-25T10:37:35.167Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 7 messages with a total size of 6071 bytes
+[2017-10-25T10:37:35.173Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 7 messages
+[2017-10-25T10:37:35.176Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:37:35.254Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:37:35.255Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 774c101c62424b178c101c6242eb1717
+[2017-10-25T10:37:43.914Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 23 messages with a total size of 19957 bytes
+[2017-10-25T10:37:43.914Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 23 messages
+[2017-10-25T10:37:43.916Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:37:44.003Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:37:44.003Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 7d91059b4e94417591059b4e94f175d9
+[2017-10-25T10:37:49.325Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 33 messages with a total size of 29148 bytes
+[2017-10-25T10:37:49.325Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 33 messages
+[2017-10-25T10:37:49.327Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:37:49.373Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:37:49.373Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 7d7c7aac4ec4423cbc7aac4ec4f23cb2
+[2017-10-25T10:37:50.563Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 12 messages with a total size of 10482 bytes
+[2017-10-25T10:37:50.564Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 12 messages
+[2017-10-25T10:37:50.565Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:37:50.600Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:37:50.600Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 35143e96806a4b9f943e96806a2b9f8e
+[2017-10-25T10:37:55.817Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 5 messages with a total size of 4402 bytes
+[2017-10-25T10:37:55.818Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 5 messages
+[2017-10-25T10:37:55.820Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:37:55.864Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:37:55.864Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation c115c065177d4f1395c065177dff135b
+[2017-10-25T10:38:00.308Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 72 messages with a total size of 63098 bytes
+[2017-10-25T10:38:00.309Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 72 messages
+[2017-10-25T10:38:00.311Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:38:00.365Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:38:00.366Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 3c92d10cefa04e1592d10cefa02e1591
+[2017-10-25T10:38:00.531Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 31 messages with a total size of 27231 bytes
+[2017-10-25T10:38:00.531Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 31 messages
+[2017-10-25T10:38:00.533Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:38:00.557Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:38:00.557Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation d6b7590d79434dc0b7590d79433dc07a
+[2017-10-25T10:38:00.724Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 1 messages with a total size of 867 bytes
+[2017-10-25T10:38:00.724Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 1 messages
+[2017-10-25T10:38:00.726Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:38:00.773Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:38:00.773Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 5ccce9ca03024c038ce9ca03025c03e6
+[2017-10-25T10:38:05.890Z] [ERROR] [??] [kafkatriggers] [/whisk.system/traceTrigger] Uncaught exception: KafkaError{code=REQUEST_TIMED_OUT,val=7,str="Commit failed: Broker: Request timed out"}
+[2017-10-25T10:38:05.891Z] [ERROR] [??] [kafkatriggers] [/whisk.system/traceTrigger] Consumer stopped without being asked
+[2017-10-25T10:38:05.891Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Cleaning up consumer
+[2017-10-25T10:38:06.002Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Successfully closed KafkaConsumer
+[2017-10-25T10:38:06.002Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Successfully cleaned up consumer
+[2017-10-25T10:38:06.003Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Recording consumer as Running. Bye bye!
+[2017-10-25T10:38:16.319Z] [ERROR] [??] [kafkatriggers] [canary] Exception caught from changes feed. Restarting changes feed...
+[2017-10-25T10:38:16.319Z] [ERROR] [??] [kafkatriggers] HTTPConnectionPool(host='couchdb.openwhisk', port=5984): Read timed out.
+[2017-10-25T10:38:16.319Z] [INFO] [??] [kafkatriggers] Shutting down existing DB client
+[2017-10-25T10:38:16.320Z] [INFO] [??] [kafkatriggers] Resetting dropped connection: couchdb.openwhisk
+[2017-10-25T10:38:16.340Z] [INFO] [??] [kafkatriggers] Starting changes feed
+[2017-10-25T10:38:16.342Z] [INFO] [??] [kafkatriggers] Starting new HTTP connection (1): couchdb.openwhisk
+[2017-10-25T10:38:16.360Z] [INFO] [??] [kafkatriggers] Database exists - connecting to it.
+[2017-10-25T10:38:16.374Z] [INFO] [??] [kafkatriggers] [canary] I found a canary. The last one was 0.00982 seconds ago.
+[2017-10-25T10:39:16.472Z] [INFO] [??] [kafkatriggers] [canary] I found a canary. The last one was 60.097641 seconds ago.
+[2017-10-25T10:40:16.565Z] [INFO] [??] [kafkatriggers] [canary] I found a canary. The last one was 60.092796 seconds ago.
+[2017-10-25T10:41:16.657Z] [INFO] [??] [kafkatriggers] [canary] I found a canary. The last one was 60.090749 seconds ago.
+[2017-10-25T10:41:18.178Z] [INFO] [??] [kafkatriggers] 127.0.0.1 - - [2017-10-25 10:41:18] "GET /health HTTP/1.1" 200 1857 0.505952
+[2017-10-25T10:41:21.470Z] [ERROR] [??] [kafkatriggers] [Doctor][/whisk.system/traceTrigger] Consumer timed-out, but should be alive! Restarting consumer.
+[2017-10-25T10:41:21.470Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Quietly shutting down consumer for restart
+[2017-10-25T10:41:21.471Z] [INFO] [??] [kafkatriggers] Consumer has shut down
+[2017-10-25T10:41:21.471Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Starting new consumer thread
+[2017-10-25T10:41:21.476Z] [INFO] [??] [kafkatriggers] Starting new HTTP connection (1): couchdb.openwhisk
+[2017-10-25T10:41:21.490Z] [INFO] [??] [kafkatriggers] Database exists - connecting to it.
+[2017-10-25T10:41:21.503Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Now listening in order to fire trigger
+%3|1508928081.513|FAIL|rdkafka#consumer-1| [thrd:10.42.102.113:9092/bootstrap]: 10.42.102.113:9092/bootstrap: Connect to ipv4#10.42.102.113:9092 failed: Connection refused
+%3|1508928081.514|ERROR|rdkafka#consumer-1| [thrd:10.42.102.113:9092/bootstrap]: 10.42.102.113:9092/bootstrap: Connect to ipv4#10.42.102.113:9092 failed: Connection refused
+[2017-10-25T10:41:22.504Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Completed first poll
+[2017-10-25T10:41:23.258Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 1019 messages with a total size of 899935 bytes
+[2017-10-25T10:41:23.265Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 1019 messages
+[2017-10-25T10:41:23.278Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:23.517Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:23.517Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 68bce3980ec54b02bce3980ec51b0264
+[2017-10-25T10:41:29.340Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 652 messages with a total size of 575483 bytes
+[2017-10-25T10:41:29.344Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 652 messages
+[2017-10-25T10:41:29.349Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:29.449Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:29.449Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation f5bed0aa701a4017bed0aa701a0017d2
+[2017-10-25T10:41:32.778Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 1019 messages with a total size of 899317 bytes
+[2017-10-25T10:41:32.785Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 1019 messages
+[2017-10-25T10:41:32.792Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:33.127Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:33.127Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation e8857fb6abb64143857fb6abb651431a
+[2017-10-25T10:41:34.079Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 1 messages with a total size of 907 bytes
+[2017-10-25T10:41:34.079Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 1 messages
+[2017-10-25T10:41:34.081Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:34.145Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:34.145Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 04f69c6658e44b3ab69c6658e4fb3ad3
+[2017-10-25T10:41:34.318Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 43 messages with a total size of 38068 bytes
+[2017-10-25T10:41:34.319Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 43 messages
+[2017-10-25T10:41:34.321Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:34.385Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:34.385Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 20bf5e52f73c49a1bf5e52f73c19a1c8
+[2017-10-25T10:41:34.606Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 1 messages with a total size of 868 bytes
+[2017-10-25T10:41:34.606Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 1 messages
+[2017-10-25T10:41:34.608Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:34.667Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:34.667Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation fae8a42998224b1aa8a42998227b1ab6
+[2017-10-25T10:41:34.828Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 28 messages with a total size of 24602 bytes
+[2017-10-25T10:41:34.829Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 28 messages
+[2017-10-25T10:41:34.830Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:34.902Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:34.902Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 0dea65f077be4ae7aa65f077beeae74b
+[2017-10-25T10:41:35.133Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 32 messages with a total size of 28188 bytes
+[2017-10-25T10:41:35.133Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 32 messages
+[2017-10-25T10:41:35.135Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:35.271Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:35.272Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 873cb94d6fe1419cbcb94d6fe1719c42
+[2017-10-25T10:41:35.598Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 10 messages with a total size of 9056 bytes
+[2017-10-25T10:41:35.601Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 10 messages
+[2017-10-25T10:41:35.604Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:35.657Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:35.657Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 17868ccd13da42ba868ccd13da42ba76
+[2017-10-25T10:41:35.870Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 1 messages with a total size of 869 bytes
+[2017-10-25T10:41:35.870Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 1 messages
+[2017-10-25T10:41:35.872Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:35.920Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:35.920Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation fe50ff3e903f437790ff3e903fc377a8
+[2017-10-25T10:41:36.109Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 40 messages with a total size of 35161 bytes
+[2017-10-25T10:41:36.109Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 40 messages
+[2017-10-25T10:41:36.111Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:36.205Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:36.205Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 692e9721250d47c9ae9721250d47c9c3
+[2017-10-25T10:41:36.594Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 31 messages with a total size of 27353 bytes
+[2017-10-25T10:41:36.595Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 31 messages
+[2017-10-25T10:41:36.623Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:36.738Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:36.738Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 9eac0460ce2c4ac9ac0460ce2cfac9ae
+[2017-10-25T10:41:37.032Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Found 1 messages with a total size of 936 bytes
+[2017-10-25T10:41:37.033Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Firing trigger with 1 messages
+[2017-10-25T10:41:37.034Z] [INFO] [??] [kafkatriggers] Starting new HTTPS connection (1): 10.0.0.96
+/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3/connectionpool.py:821: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.org/en/latest/security.html
+  InsecureRequestWarning)
+[2017-10-25T10:41:37.141Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Repsonse status code 200
+[2017-10-25T10:41:37.141Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Fired trigger with activation 95fee3fc0b9b4168bee3fc0b9b116835
+[2017-10-25T10:41:42.408Z] [ERROR] [??] [kafkatriggers] [/whisk.system/traceTrigger] Uncaught exception: KafkaError{code=REQUEST_TIMED_OUT,val=7,str="Commit failed: Broker: Request timed out"}
+[2017-10-25T10:41:42.408Z] [ERROR] [??] [kafkatriggers] [/whisk.system/traceTrigger] Consumer stopped without being asked
+[2017-10-25T10:41:42.408Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Cleaning up consumer
+[2017-10-25T10:41:42.583Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Successfully closed KafkaConsumer
+[2017-10-25T10:41:42.583Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Successfully cleaned up consumer
+[2017-10-25T10:41:42.584Z] [INFO] [??] [kafkatriggers] [/whisk.system/traceTrigger] Recording consumer as Running. Bye bye!
+[2017-10-25T10:42:16.736Z] [INFO] [??] [kafkatriggers] [canary] I found a canary. The last one was 60.078677 seconds ago.
+[2017-10-25T10:43:16.802Z] [INFO] [??] [kafkatriggers] [canary] I found a canary. The last one was 60.064752 seconds ago.
