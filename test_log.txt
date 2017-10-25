@@ -1,0 +1,56 @@
+curl -X PUT http://whisk_admin:some_passw0rd@10.0.0.29:5984/_node/nonode@nohost/_config/query_server_config/reduce_limit -d '"false"'
+wsk package bind /whisk.system/messaging myKafka -p brokers "[\"10.42.102.112:9092\", \"10.42.102.113:9092\", \"10.42.102.114:9092\"]" -i
+wsk trigger create traceTrigger -f /myKafka/kafkaFeed -p topic pcloud_docker_hae_trace_ori -i
+wsk rule create echoRule traceTrigger utils/echo -i
+
+#install 
+
+# change installRouteMgmt.sh
+GW_USER=""
+GW_PWD=""
+GW_HOST_V2="http://10.0.0.124:9000/v2"
+
+./installRouteMgmt.sh 789c46b1-71f6-4ed5-8c54-816aa4f8c502:abczO3xZCLrMN6v2BKK1dXYFpXlPkccOFqm12CdAsMgRU4VrNZ9lyGVCGuMDGIwP https://10.63.89.111:30427 /whisk.system /usr/local/bin/wsk
+
+
+#restart apigateway, pass redis.openwhisk ip address
+
+
+#edit apigateway
+ Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: 2017-10-23T09:21:39Z
+  labels:
+    name: apigateway
+  name: apigateway
+  namespace: openwhisk
+  resourceVersion: "10005427"
+  selfLink: /api/v1/namespaces/openwhisk/services/apigateway
+  uid: 93004419-b7d3-11e7-b23d-0050568d62c1
+spec:
+  clusterIP: 10.0.0.124
+  externalTrafficPolicy: Cluster
+  ports:
+  - name: mgmt
+    nodePort: 32348
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+  - name: api
+    nodePort: 31519
+    port: 9000
+    protocol: TCP
+    targetPort: 9000
+  selector:
+    name: apigateway
+  sessionAffinity: None
+  type: NodePort
+status:
+  loadBalancer: {}
+
+
