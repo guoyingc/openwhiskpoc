@@ -1,0 +1,10 @@
+export DB_PROVIDER=CouchDB
+export DB_PROTOCOL=http
+export DB_HOST=10.0.0.66
+export DB_PORT=5984
+export DB_USERNAME=whisk_admin
+export DB_PASSWORD=some_passw0rd
+export DB_WHISK_ACTIONS=test_whisks
+export DB_WHISK_ACTIVATIONS=test_activations
+export DB_WHISK_AUTHS=test_subjects
+export WHISK_LOGS_DIR="/"
